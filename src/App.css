@@ -1,0 +1,78 @@
+.inputEmail{
+    border: 2px solid hsl(0, 0%, 75%);
+}
+.linkFylo{
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+}
+.linkFylo:hover{
+    opacity: 0.5;
+}
+.titleStayProductive{
+    color: hsl(243, 87%, 12%);
+}
+.itemNavbar:hover{
+    color: hsl(243, 87%, 12%) !important;
+    border-bottom: 1px solid hsl(243, 87%, 12%);
+    cursor: pointer;
+}
+.textAvatar{
+    color: hsl(243, 87%, 12%);
+}
+.containerStayProductive{
+    background: url('./assets/images/bg-curve-desktop.svg');
+}
+.elementStayProductive{
+    background: #F8F8FE;
+}
+
+.buttonGetStarted{
+    background-color: hsl(224, 93%, 58%);
+}
+.buttonGetStarted:hover{
+    filter: contrast(0.7);
+}
+.containerGetEarly{
+    background-color: hsl(238, 22%, 44%);
+}
+.containerFooter{
+    background-color: hsl(243, 87%, 12%);
+}
+.item{
+    color: hsl(0, 0%, 75%);
+    cursor: pointer;
+}
+.item:hover{
+    color: hsl(238, 22%, 44%);
+}
+
+.containerAllFilles{
+    animation: 4s rotateElement ease-in-out;
+}
+.containerStayProductive{
+    animation: 6s rotateElementReverse ease-in-out;
+}
+.containerGetEarly{
+    animation: 8s rotateElement ease-in-out;
+}
+.containerFooter{
+    animation: 10s rotateElementReverse ease-in-out;
+}
+
+@keyframes rotateElement{
+    from{
+        transform: translate(-120%, 10px);
+    }
+    to{
+        transform: translate(10px, 10px);
+    }
+}
+
+@keyframes rotateElementReverse{
+    from{
+        transform: translate(120%, 10px);
+    }
+    to{
+        transform: translate(10px, 10px);
+    }
+}
